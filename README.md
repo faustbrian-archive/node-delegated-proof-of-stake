@@ -20,23 +20,23 @@ import { IValidator, mine, round, validator } from "@faustbrian/node-delegated-p
 const validators: IValidator[] = [
   validator(
     "02062f6f6d2aabafd745e6b01f4aa788a012c4ce7131312026bdb6eb4e74a464d2",
-    1,
+    [{ stake: 1 }],
   ),
   validator(
     "020aac4ec02d47d306b394b79d3351c56c1253cd67fe2c1a38ceba59b896d584d1",
-    2,
+    [{ stake: 2 }],
   ),
   validator(
     "0212a11582a28f178b906edbf8e8c447ce1ba86041ee731e595ae4d39ef034c2ad",
-    3,
+    [{ stake: 3 }],
   ),
   validator(
     "0215789ac26155b7a338708f595b97c453e08918d0630c896cbd31d83fe2ad1c33",
-    4,
+    [{ stake: 4 }],
   ),
   validator(
     "021b0f58eca7f123428a8647ffe0644a9454c510f066d3864c27d8c7ad8f5a8aa4",
-    5,
+    [{ stake: 5 }],
   ),
 ];
 
